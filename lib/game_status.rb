@@ -31,7 +31,7 @@ def won?(board)
       return win_combination # return the win_combination indexes that won.
     elsif board.all? do |space|
       space == " "
-    end
+    end return false
       false
     end
   end
